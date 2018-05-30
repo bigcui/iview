@@ -4,7 +4,7 @@
         @click.stop="select"
         @touchend.stop="select"
         @mousedown.prevent
-        @touchstart.prevent
+      
     ><slot>{{ showLabel }}</slot></li>
 </template>
 <script>
